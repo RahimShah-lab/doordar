@@ -52,19 +52,19 @@ function Home() {
                             title: "Digital Learning Resources",
                             description:
                                 "Access a rich collection of e-books and children’s stories that make learning fun and interactive.",
-                            image: `${process.env.PUBLIC_URL}/assets/images/ai-landing.avif`,
+                            image: '/assets/images/ai-landing.avif',
                         },
                         {
                             title: "AI Launchpad Kits",
                             description:
                                 "Take learning further with our exclusive AI Launchpad kits, tailored for budding innovators.",
-                            image: `${process.env.PUBLIC_URL}/assets/images/front-page-ful-kit.avif`,
+                            image: '/assets/images/front-page-ful-kit.avif',
                         },
                         {
                             title: "Inspiring Blog",
                             description:
                                 "Stay updated with insights, tutorials, and ideas to foster STEM education and creativity.",
-                            image: `${process.env.PUBLIC_URL}/assets/images/ai-lounchpad-home.jpeg`,
+                            image: '/assets/images/ai-lounchpad-home.jpeg',
                         },
                     ].map((card, idx) => (
                         <div
