@@ -39,14 +39,14 @@ function Home() {
                         {
                             title: "AI for Education",
                             description: "Discover how cutting-edge AI techniques transform classrooms into interactive and personalized learning environments.",
-                            image: `${process.env.PUBLIC_URL}/assets/images/ai-children-classroom.avif`,
+                            image: 'assets/images/ai-children-classroom.avif',
                         },
                         
                         {
                             title: "Hands-On STEM Projects",
                             description:
                                 "Engage with practical experiments using Raspberry Pi Pico, ESP32, and IoT technology to bring STEM concepts to life.",
-                                image: `${process.env.PUBLIC_URL}/assets/images/dht-predicted.avif`,
+                                image: '/assets/images/dht-predicted.avif',
                         },
                         {
                             title: "Digital Learning Resources",
